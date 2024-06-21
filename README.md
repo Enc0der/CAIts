@@ -14,6 +14,8 @@ This project involves the creation of a Telegram bot  for analyzing Japanese med
 ├── data
 │   ├── cleaning_data.py
 │   └── train2019.json
+├── images
+│   ├── scheme.jpeg
 ```
 
 ### Data Preparation
