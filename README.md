@@ -104,7 +104,14 @@ The complete cleaned dataset in .JSON format can be found on Yandex Disk at http
    ```sh
    python app.py
    ```
+### Installation with Docker
 
+Run:
+
+   ```sh
+docker build -t my_project .
+docker run -d --name my_project_container my_project
+  ```
 Now your Telegram bot is ready for use. You can interact with it through Telegram by sending requests and receiving information based on data from JSON files.
 
    ```sh
