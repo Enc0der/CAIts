@@ -109,8 +109,11 @@ The complete cleaned dataset in .JSON format can be found on Yandex Disk at http
 Run:
 
    ```sh
-docker build -t my_project .
-docker run -d --name my_project_container my_project
+git clone https://github.com/Enc0der/CAIts.git
+cd CAIts
+
+docker build -t catbot .
+docker run -d --name catbot catbot
   ```
 Now your Telegram bot is ready for use. You can interact with it through Telegram by sending requests and receiving information based on data from JSON files.
 
